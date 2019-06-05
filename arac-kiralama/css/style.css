@@ -1,0 +1,266 @@
+	/* HOME */
+	body{
+		font-family: 'Roboto', sans-serif;
+
+	}
+
+	h3{
+		font-size: 25px;
+		font-weight: 400px;
+	}
+
+	h2{
+		font-size: 32px;
+		font-weight: 400;
+		color: #1886C7;
+		text-transform: uppercase;
+	}
+	
+
+	.navbar{
+		border-bottom: #1886C7 5px solid;
+	}
+
+	.navbar .navbar-brand {
+		color: #1886C7;
+		font-size: 24px;
+	}
+
+	.bg-dark{
+		background-color: rgba(0, 0, 0, 1)!important;
+	}
+
+	  .nav-link{
+	 	color: white !important;
+	 	text-transform: uppercase;
+	 	transition:color 1s ease;
+	 }
+
+	 .nav-link hover {
+	 	color: :#1886C7 !important;
+	 }
+
+	 #headerSection {
+	 	background: url('../images/bg-car.png') no-repeat center center fixed;
+	 	background-size: cover;
+	 	height: 100vh;
+	 }
+	 #headerSection .overlay{
+	 	background-color: rgba(0, 0, 0, .7);
+	 }
+
+	 #headerSection .row {
+	 	height: 100vh;
+	 }
+
+	 .btn-outline-danger{
+	 	padding-left: 30px;
+	 	padding-right: 30px;
+	 	border-radius: 0;
+	 	cursor: pointer;
+	 }
+
+	/* HAKKINDA */
+
+	#hakkinda h2{
+		border-left: 6px solid #1886C7;
+		padding-left: 30px;
+	}
+	
+	#hakkinda .col-md-6{
+		display: inline;
+
+	}
+
+	#hakkinda .btn-outline-primary{
+		position: absolute;
+		bottom: 0;
+	}
+
+	#hakkinda p{
+		line-height: 28px;
+
+	}
+
+	/* neler yapıyoruz */
+
+	 #works{
+	 	background: linear-gradient(
+	 		rgba(0,0,0, .7),
+	 		rgba(0,0,0, .7)
+	 		),
+	 	url(../images/neleryapiyoruzmodalbg.jpg);
+	 	background-attachment: fixed;
+	 	background-position: center;
+	 	background-repeat: no-repeat;
+	 	background-size: cover;
+
+	 }
+
+	 /* analiz*/
+
+	 #analiz{
+	 	background-color: #f4f5f9;
+	 	line-height: 28px;
+	 }
+
+	 .analizArea{
+	 	background-color: #fff;
+	 	margin-top: 40px;
+	 	margin-right: -40px;
+	 	z-index: 100;
+	 	padding: 40px;
+	 	position: relative;
+	 	min-height: 420px;
+	 }
+
+	 #analiz h3{
+	 	font-size: 18px;
+	 	margin-top: 40px;
+	 	margin-bottom:40px;
+	 }
+
+	 #analiz .fa{
+	 	font-size: 40px;
+	 }
+	 
+
+	 /* Portfolio */
+
+	 #portfolio .col-md-3{
+	 	padding-left: 0;
+	 	padding-right: 0;
+	 	text-align: center;
+
+	 }
+
+	 #portfolio h4{
+	 	font-size: 16px;
+	 	font-weight: 300;
+	 	color: white;
+	 }
+
+	  #portfolio .fa{
+	  	font-size: 24px;
+	  	margin-bottom: 20px;
+	  }
+
+	  #portfolio p{
+	  	font-size: 14px;
+	  	font-weight: 300;
+	  	color: white;
+	  }
+	  
+	  .imageContainer{
+	  	position: relative;
+	  	cursor: pointer;
+
+	  }
+
+	  .imageOverlay{
+	  	position: absolute;
+	  	top: 0;
+	  	bottom: 0;
+	  	right: 0;
+	  	left: 0;
+	  	height: 100%;
+	  	width: 100%;
+	  	background-color: #1886C7;
+	  	opacity: 0;
+	  	transition: 1s ease;
+	  }
+
+	  .imageContainer:hover .imageOverlay{
+	  	opacity: .7;
+	  }
+
+	  .imageText{
+	  	color: white;
+	  	position: absolute;
+	  	top: 50%;
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
+	  }
+
+	  .carousel-control-prev-icon{
+
+	  	width: 40px;
+	  	height: 40px;
+	  }
+	  .carousel-control-next-icon{
+	  	width: 40px;
+	  	height: 40px;
+	  	
+	  }
+
+
+	 /* contact */
+
+	 #contact{
+	 	background-color: #f4f5f9;
+
+	 }
+
+
+	 #contact .input-group-addon{
+	 	width: 50px;
+	 	border-radius: 0;
+	 	color: #fff;
+	 	background-color: #1886C7;
+	 }
+
+	 #contact .form-control, #contact .btn{
+	 	border-radius: 0;
+	 }
+
+	 /* footer */
+
+	 #main-footer{
+	 	color: white;
+	 	background-color: #000;
+	 }
+
+
+
+/* Media queries resp*/
+@media screen and (max-width:1200px){
+	#hakkinda p{
+		line-height: 20px;
+	}
+	.hakkindasol {
+		text-align: center;
+	} 
+	.hakkindasag{
+		text-align: center;
+	}
+}
+@media screen and (max-width:992px){
+.display-3{
+		font-size: 48px;
+	}
+
+	#hakkinda .btn{
+		position: relative;
+	}
+	.hakkindasol {
+		text-align: center;
+	} 
+	.hakkindasag{
+		text-align: center;
+	}
+}
+@media screen and (max-width:768px){
+.display-3{
+		font-size: 32px;
+	}
+.analizImage
+{
+	margin-left: 0;
+	text-align: center;
+}
+.analizArea{
+	margin-right: 0;
+	
+}
+}
+@media screen and (max-width:576px){
